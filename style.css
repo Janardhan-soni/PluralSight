@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width: 40%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form img{
+    width: 300px;
+    margin-top: 50px;
+}
+.form label{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 140px;
+}
+form input{
+    width: 300px;
+    height: 40px;
+    background-color:rgb(red, green, blue);
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.img-section{
+    width: 60%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img-section img{
+    width: 600px;
+}
+.img-section button{
+    background-color:rgb(226, 54, 54);
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 40px;
+
+}
+.sec-btn{
+    background-color: gray;
+    margin-top: 20px;
+}
+.form button{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(9, 158, 245);
+
+}
+.line{
+    border-bottom: 1px solid gray;
+    width: 300px;
+    margin-top: 20px;
+}
+.form p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+span{
+    border-bottom: 1px solid gray;
+}
